@@ -1,7 +1,7 @@
 function foo() {
   var bar;
-
+  quux='wookie';
   function zip() {
-      var quux;
+      var quux='lookie';
   }
 }
