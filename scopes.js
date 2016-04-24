@@ -3,5 +3,7 @@ function foo() {
   quux='wookie';
   function zip() {
       var quux='lookie';
+      bar = true;
   }
+  return zip;
 }
