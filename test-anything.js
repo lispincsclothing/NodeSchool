@@ -1,2 +1,1 @@
-var emotify = require(process.argv[2]);
-console.log(emotify(process.argv[3]));
+var assert = require('asset');
