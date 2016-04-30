@@ -1,11 +1,11 @@
+// Here's the reference solution:
+
 var concat = require('concat-stream');
 
-process.stdin
-.pipe(concat(function () {
-  
-}))
-.pipe(process.stdout);
-
+process.stdin.pipe(concat(function(src) {
+    var s = src.toString().split('').reverse().join('');
+    console.log(s);
+}));
 
 // You will be given text on process.stdin. Buffer the text and reverse it using
 // the `concat-stream` module before writing it to stdout.
@@ -32,4 +32,4 @@ process.stdin
 // process.stdin.
 //
 // Make sure to `npm install concat-stream` in the directory where your solution
-file is located.
+// file is located.
