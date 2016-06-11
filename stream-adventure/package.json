@@ -11,5 +11,10 @@
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint-plugin-react": "^5.1.1"
+  },
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "split": "^1.0.0",
+    "through2": "^2.0.1"
   }
 }
